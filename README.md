@@ -23,9 +23,9 @@ The current version lets you annotate proteins and genes using **Uniprot** and *
 3.2. Use the command `/newbot` to create a new bot                                      
 3.3. Follow the instructions                      
 3.4. After creating the bot, you will receive an API token. Save it, as you will need it for configuration   
-4. **Setting Up the Token:**
-4.1. Create a .env file in the root directory
-4.2. Add the following text to the .env file, replacing YOUR_BOT_TOKEN with the token you received from BotFather: `BOT_TOKEN=YOUR_BOT_TOKEN`                 
+4. **Setting Up the Token:**                             
+4.1. Create a .env file in the root directory                                  
+4.2. Add the following text to the .env file, replacing YOUR_BOT_TOKEN with the token you received from BotFather: `BOT_TOKEN=YOUR_BOT_TOKEN`                                                             
 5. **After setting up the token, you can start the bot using the following command:**   `python3 bot.py`                 
 
 ## Usage
