@@ -16,6 +16,8 @@ async def download_document(message: Message, bot: Bot, state: FSMContext):
     file = await bot.get_file(file_id)
     directory = "downloads"
     os.makedirs(directory, exist_ok=True)
+    output_dir = "output_dir"
+    os.makedirs(output_dir, exist_ok=True)
     file_path = os.path.join(directory, f"ID_list_{file_id}.txt")
 
     await bot.download_file(file.file_path, file_path)
