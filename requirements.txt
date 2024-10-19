@@ -1,0 +1,6 @@
+aiogram==3.13.0
+aiohttp==3.10.5
+pandas==2.2.2
+pydantic==2.9.1
+pydantic_settings==2.4.0
+Requests==2.32.3
