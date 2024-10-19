@@ -50,7 +50,9 @@ def process_accessions(accessions):
 
 async def main(file_path, file_id):
     output_dir = 'output_dir'
-    os.makedirs(output_dir, exist_ok=True) 
+    if not os.path.exists(file_path):
+        print(f"Файл {file_path} не найден.")
+        return
 
     with open(file_path, 'r') as f:
         accessions = f.read().splitlines()
