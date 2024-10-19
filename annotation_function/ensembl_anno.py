@@ -14,7 +14,6 @@ async def get_gene_info(session, gene_id):
 
 async def main_ensembl(input_file, file_id):
     output_dir = 'output_dir'
-    os.makedirs(output_dir, exist_ok=True) 
     file_path = input_file
     gene_ids = []
     
